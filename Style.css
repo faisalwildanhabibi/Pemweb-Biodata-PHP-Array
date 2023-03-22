@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+}
+/* Membuat tampilan website lebih responsif */
+@media only screen and (max-width: 1500px) {
+  nav {
+    display: block;
+    text-align: center;
+    width: auto;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin: 0;
+  }
+  
+  .col {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+
+/* Styling untuk header */
+header {
+  background-color: #333;
+  font-family: Garamond;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Styling untuk navigasi */
+nav {
+  background-color: #666;
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/* Styling untuk main content */
+main {
+  background-color: #999;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+main img {
+    margin: 10px auto;
+    width: fit-content;
+    height: 250px;
+}
+
+main h2 {
+  font-family: Garamond;
+  text-align: center;
+}
+
+main h3 {
+  padding-bottom: 3px;
+  font-family: Garamond;
+  font-size: 25px;
+}
+
+main p {
+  font-family: 'Times New Roman';
+  font-size: 17px;
+  word-spacing: normal;
+  padding-bottom: 3px;
+}
+
+main ul li {
+  font-family: 'Times New Roman';
+  font-size: 17px;
+  padding: 3px;
+}
+
+main ol li {
+  font-family: 'Times New Roman';
+  font-size: 17px;
+  padding: 3px;
+}
+
+.col {
+  width: calc(90% - 10px);
+  margin-right: 20px;
+  padding: 25px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.col:last-child {
+  margin-right: 0;
+}
+
+/* Styling untuk footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 0px 5px;
+  margin-bottom: 0 auto;
+}
+
+footer h2 {
+    color: black;
+    padding: 5px auto;
+}
+
+footer a {
+    width: 25px;
+    height: 25px;
+    padding: 0px 5px;
+    margin: 0 auto;
+}
